@@ -9,7 +9,7 @@ services:
       - "7860:7860"
       - "8888:8888"
     environment:
-      - DOWNLOAD_MODELS=all
+      - DOWNLOAD_MODELS=xcodec_mini_infer,YuE-s1-7B-anneal-en-cot,YuE-s1-7B-anneal-en-icl
     deploy:
       resources:
         reservations:
